@@ -1,0 +1,146 @@
+[
+  {
+    "skill": "JavaScript",
+    "description": "Frontend/Language",
+    "color": "#FFEA00",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "HTML/CSS",
+    "description": "Frontend",
+    "color": "#FFEA00",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "C++",
+    "description": "Language",
+    "color": "#F0E68C",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "MongoDB",
+    "description": "Database",
+    "color": "#FFB6C1",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "MySQL",
+    "description": "Database",
+    "color": "#FFB6C1",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "React",
+    "description": "Frontend/Framework",
+    "color": "#FFEA00",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "Redux",
+    "description": "Backend",
+    "color": "#228B22",
+    "textcolor": "#ffffff"
+  },
+  {
+    "skill": "NodeJS",
+    "description": "Backend",
+    "color": "#228B22",
+    "textcolor": "#ffffff"
+  },
+  {
+    "skill": "ExpressJS",
+    "description": "Backend",
+    "color": "#228B22",
+    "textcolor": "#ffffff"
+  },
+  {
+    "skill": "Microsoft Power Apps",
+    "description": "Service",
+    "color": "#BF40BF",
+    "textcolor": "#ffffff"
+  },
+  {
+    "skill": "Microsoft Dynamics 365 (CRM)",
+    "description": "Service",
+    "color": "#BF40BF",
+    "textcolor": "#ffffff"
+  },
+  {
+    "skill": "Context API",
+    "description": "Frontend",
+    "color": "#FFEA00",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "React Leaflet",
+    "description": "Frontend",
+    "color": "#FFEA00",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "Postman",
+    "description": "Backend",
+    "color": "#228B22",
+    "textcolor": "#ffffff"
+  },
+  {
+    "skill": "Figma",
+    "description": "Design",
+    "color": "#DA70D6",
+    "textcolor": "#ffffff"
+  },
+  {
+    "skill": "Git",
+    "description": "Service",
+    "color": "#BF40BF",
+    "textcolor": "#ffffff"
+  },
+  {
+    "skill": "ServiceNow",
+    "description": "Service",
+    "color": "#BF40BF",
+    "textcolor": "#ffffff"
+  },
+  {
+    "skill": "Notion",
+    "description": "Service/Notes",
+    "color": "#BF40BF",
+    "textcolor": "#ffffff"
+  },
+  {
+    "skill": "Bootstrap",
+    "description": "Frontend/Styling",
+    "color": "#FFEA00",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "Tailwind CSS",
+    "description": "Frontend/Styling",
+    "color": "#FFEA00",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "Material UI",
+    "description": "Frontend/Styling",
+    "color": "#FFEA00",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "StoryBook",
+    "description": "Frontend",
+    "color": "#FFEA00",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "Framer-Motion",
+    "description": "Frontend/Animation",
+    "color": "#FFEA00",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "Netlify",
+    "description": "Deployment",
+    "color": "#5D3FD3",
+    "textcolor": "#ffffff"
+  }
+]

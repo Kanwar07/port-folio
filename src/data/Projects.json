@@ -1,0 +1,27 @@
+[
+  {
+    "id": "1",
+    "projectName": "Q-Kart",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "React",
+      "skill4": "MaterialUI",
+      "skill5": "Bootstrap",
+      "skill6": "RestAPI",
+      "skill7": "Netlify"
+    },
+    "description": {
+      "point1": "E-commerce application showcasing extensive product range.",
+      "point2": "Orchestrated authentication, shopping cart, and checkout.",
+      "point3": "Created visually appealing and optimized UI by using React.js and JavaScript (Component-Based Architecture).",
+      "point4": "Elevated user experience with Material UI and Bootstrap.",
+      "point5": "Dynamically loaded and presented data from the backend server through REST APIs, ensuring real-time information.",
+      "point6": "Successfully deployed the website on Netlify for easy access."
+    },
+    "projectLink": "https://q-kart-front-end.netlify.app/",
+    "githubLink": "https://github.com/Kanwar07/anmolkanwar07-ME_QKART_FRONTEND_V2",
+    "preview": "https://iili.io/d2bdHqg.png"
+  }
+]
