@@ -24,10 +24,16 @@ function IntroPage() {
             <div className="mr-4">Anmol</div>
             <div className="mr-4">Kanwar</div>
             <div className="mr-4">|</div>
-            <div className="mr-4">Frontend</div>
-            <div className="mr-4">Developer</div>
+            <div className="relative mr-4 inline-block">
+              <div className="relative z-10">Frontend</div>
+              <div className="absolute left-2 right-0 bottom-[-8px] h-1/2 border border-[#ed6955] bg-[#ed6955] z-0"></div>
+            </div>
+            <div className="relative mr-4 inline-block">
+              <div className="relative z-10">Developer</div>
+              <div className="absolute left-2 right-0 bottom-[-8px] h-1/2 border border-[#ed6955] bg-[#ed6955] z-0"></div>
+            </div>
           </div>
-          <div className="flex flex-row items-center text-[#ffffff] mt-4 mb-4">
+          <div className="flex flex-row items-center text-[#ffffff] mt-8 mb-4">
             <div className="mr-4 transition ease-in-out duration-300 cursor-pointer hover:scale-110">
               <img src={github} alt="github" />
             </div>

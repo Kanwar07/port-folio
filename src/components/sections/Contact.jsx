@@ -7,7 +7,10 @@ function Contact() {
         <div className="mr-4">Let's</div>
         <div className="mr-4">have</div>
         <div className="mr-4">a</div>
-        <div className="mr-4">chat</div>
+        <div className="relative inline-block">
+          <div className="relative z-10">Chat</div>
+          <div className="absolute left-2 right-0 bottom-[-8px] h-1/2 border border-[#ed6955] bg-[#ed6955] z-0"></div>
+        </div>
       </div>
       <div className="mb-8 text-[20px]">anmolkanwar07@gmail.com</div>
       <div className="inline-block mt-8 mb-8 border border-[#000000] rounded-lg mb-8">

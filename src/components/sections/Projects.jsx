@@ -5,9 +5,12 @@ import ProjectCard from "../card/ProjectCard";
 function Projects() {
   return (
     <div className="flex flex-col justify-center items-center w-screen pl-40 pr-40">
-      <div className="flex flex-row items-start w-full mb-20 text-[36px]">
+      <div className="relative inline-block flex justify-start w-full mb-20 text-[36px]">
         <div className="mr-2">My</div>
-        <div className="ml-2 mr-4">Projects</div>
+        <div className="relative inline-block">
+          <div className="relative z-10">Projects</div>
+          <div className="absolute left-2 right-0 bottom-[-8px] h-1/2 border border-[#ed6955] bg-[#ed6955] z-0"></div>
+        </div>
       </div>
       <div className="flex flex-col justify-start">
         {projects.map((project) => {

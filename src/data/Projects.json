@@ -7,10 +7,27 @@
       "skill1": "HTML/CSS",
       "skill2": "JavaScript",
       "skill3": "React",
-      "skill4": "MaterialUI",
-      "skill5": "Bootstrap",
-      "skill6": "RestAPI",
-      "skill7": "Netlify"
+      "skill4": "React Hooks",
+      "skill5": "Forms",
+      "skill6": "Controlled Components",
+      "skill7": "REST",
+      "skill8": "JSON",
+      "skill9": "Error Handling",
+      "skill10": "Developer Tools",
+      "skill11": "ES6",
+      "skill12": "Conditional Rendering",
+      "skill13": "React State & Props",
+      "skill14": "Event Handling",
+      "skill15": "LIFECYCLE METHODS",
+      "skill16": "React Router",
+      "skill17": "Responsive Design",
+      "skill18": "MaterialUI",
+      "skill19": "Bootstrap",
+      "skill20": "localStorage",
+      "skill21": "Material UI Grid",
+      "skill22": "Debouncing",
+      "skill23": "RestAPI",
+      "skill24": "Netlify"
     },
     "description": {
       "point1": "E-commerce application showcasing extensive product range.",
@@ -23,5 +40,84 @@
     "projectLink": "https://q-kart-front-end.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/anmolkanwar07-ME_QKART_FRONTEND_V2",
     "preview": "https://iili.io/d2bdHqg.png"
+  },
+  {
+    "id": "2",
+    "projectName": "QTripDynamic",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "ES6",
+      "skill4": "Developer Tools",
+      "skill5": "HTTP",
+      "skill6": "REST",
+      "skill7": "Responsive Design",
+      "skill8": "VS Code Live Server",
+      "skill9": "DOM Manipulation",
+      "skill10": "Bootstrap",
+      "skill11": "ConditionalRendering",
+      "skill12": "LocalStorage",
+      "skill13": "JSON",
+      "skill14": "Event Handling",
+      "skill15": "Bootstrap Carousel",
+      "skill16": "Deployment",
+      "skill17": "Netlify"
+    },
+    "description": {
+      "point1": "Created web pages using HTML and CSS and made them dynamic using JavaScript",
+      "point2": "Improved UX with multi-select filters, image carouselsImplemented conditional rendering of page elements",
+      "point3": "Implemented conditional rendering of page elements",
+      "point4": "Utilized localStorage to persist user preferences at client-side and facilitated reservation form submission using fetch API.",
+      "point5": "Deployed the website using Netlify/Vercel for Frontend and Render for Backend"
+    },
+    "projectLink": "https://qtripdynamic-kanwar.netlify.app/",
+    "githubLink": "https://github.com/Kanwar07/anmolkanwar07-ME_QTRIPDYNAMIC",
+    "preview": "https://iili.io/d3TKtUl.png"
+  },
+  {
+    "id": "3",
+    "projectName": "Chaabi",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "React",
+      "skill4": "MaterialUI",
+      "skill6": "ReactChart",
+      "skill7": "RestAPI",
+      "skill8": "Netlify"
+    },
+    "description": {
+      "point1": "A Clone of dashboard for Chaabi Website using HTML/CSS and React",
+      "point2": "Used Material UI for React Components and styling.",
+      "point3": "React Chart is used for creating different Graphs and Charts",
+      "point4": "Successfully deployed the website on Netlify for easy access."
+    },
+    "projectLink": "https://chaabi-temp.netlify.app/",
+    "githubLink": "https://github.com/Kanwar07/Chaabi",
+    "preview": "https://iili.io/d3TCHxt.png"
+  },
+  {
+    "id": "4",
+    "projectName": "24 Carrots",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "React",
+      "skill4": "MaterialUI",
+      "skill5": "React Responsive Carousel",
+      "skill6": "Netlify"
+    },
+    "description": {
+      "point1": "A Clone of a Catering and Events Website using HTML/CSS and React",
+      "point2": "Used Material UI for React Components and styling",
+      "point3": "React Responsive Carousel is used for creating different carousel of images",
+      "point4": "Successfully deployed the website on Netlify for easy access."
+    },
+    "projectLink": "https://rozirotiwork-assignment.netlify.app/",
+    "githubLink": "https://github.com/Kanwar07/roziroti.work-assignment",
+    "preview": "https://iili.io/d3Ti0gf.png"
   }
 ]
