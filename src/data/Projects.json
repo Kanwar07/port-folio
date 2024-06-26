@@ -77,6 +77,28 @@
   },
   {
     "id": "3",
+    "projectName": "CountDown Timer",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "React",
+      "skill4": "ContextAPI",
+      "skill5": "TailwindCSS",
+      "skill6": "Netlify"
+    },
+    "description": {
+      "point1": "A CountDown Timer to do everything on time",
+      "point2": "Used Tailwind CSS for styling",
+      "point3": "Used Context API to store all the data in single file and use them in anywhere in the project",
+      "point4": "Successfully deployed the website on Netlify for easy access."
+    },
+    "projectLink": "https://countdowntimer-assignment.netlify.app/",
+    "githubLink": "https://github.com/Kanwar07/Countdown-Timer",
+    "preview": "https://iili.io/d3aj0Zu.png"
+  },
+  {
+    "id": "4",
     "projectName": "Chaabi",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -99,7 +121,7 @@
     "preview": "https://iili.io/d3TCHxt.png"
   },
   {
-    "id": "4",
+    "id": "5",
     "projectName": "24 Carrots",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -119,5 +141,115 @@
     "projectLink": "https://rozirotiwork-assignment.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/roziroti.work-assignment",
     "preview": "https://iili.io/d3Ti0gf.png"
+  },
+  {
+    "id": "6",
+    "projectName": "Products Data",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "React",
+      "skill4": "MaterialUI",
+      "skill5": "Netlify"
+    },
+    "description": {
+      "point1": "A Website for adding products data and displaying them in a end",
+      "point2": "Used Material UI for React Components and styling",
+      "point3": "Used react hooks for saving data and adding data from json",
+      "point4": "Successfully deployed the website on Netlify for easy access."
+    },
+    "projectLink": "https://productdatadetails.netlify.app/",
+    "githubLink": "https://github.com/Kanwar07/product-data",
+    "preview": "https://iili.io/d3Y67CN.png"
+  },
+  {
+    "id": "7",
+    "projectName": "Todo App",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "React",
+      "skill4": "Redux",
+      "skill5": "ReactRedux",
+      "skill6": "MaterialUI",
+      "skill7": "TailwindCSS",
+      "skill8": "Netlify"
+    },
+    "description": {
+      "point1": "Todo app for adding things you need to remember.",
+      "point2": "Used Material UI for React Components and styling",
+      "point3": "Used Redux to store data and created Slice (State & action) for data Manipulation",
+      "point4": "Successfully deployed the website on Netlify for easy access."
+    },
+    "projectLink": "https://app01todos.netlify.app/",
+    "githubLink": "https://github.com/Kanwar07/todo-app",
+    "preview": "https://iili.io/d3an7ee.png"
+  },
+  {
+    "id": "8",
+    "projectName": "Maps",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "React",
+      "skill4": "ReactLeaflet",
+      "skill5": "MaterialUI",
+      "skill6": "Netlify"
+    },
+    "description": {
+      "point1": "Created Map container, React Leaflet, and Open Street Map for map functionality. Added Geo markers using custom data.",
+      "point2": "Added polygon layer using custom data in React Leaflet, coloring states based on coordinates.",
+      "point3": "Map interaction events mouse over, mouse out and click to show data in UI card(React Leaflet Custom Control).",
+      "point4": "Successfully deployed the website on Netlify for easy access."
+    },
+    "projectLink": "https://mapsassessment.netlify.app/",
+    "githubLink": "https://github.com/Kanwar07/maps",
+    "preview": "https://iili.io/d3asnUP.png"
+  },
+  {
+    "id": "9",
+    "projectName": "Forever",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "React",
+      "skill4": "TailwindCSS",
+      "skill5": "FramerMotion",
+      "skill6": "ReactSlideshowImage",
+      "skill7": "Netlify"
+    },
+    "description": {
+      "point1": "A clone of a Wedding invitation website",
+      "point2": "Framer Motion is used for adding animation to the website and make it more appealing",
+      "point3": "Used React Slidershow for image slideshow",
+      "point4": "Successfully deployed the website on Netlify for easy access."
+    },
+    "projectLink": "https://forever01.netlify.app/",
+    "githubLink": "https://github.com/Kanwar07/forever",
+    "preview": "https://iili.io/d30dpNj.png"
+  },
+  {
+    "id": "10",
+    "projectName": "Music App",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "React",
+      "skill4": "ReactHooks",
+      "skill5": "Netlify"
+    },
+    "description": {
+      "point1": "A Music Player where you can upload and play songs",
+      "point2": "Audio tag is used to play songs along with useRef to play songs one after the other",
+      "point3": "Successfully deployed the website on Netlify for easy access."
+    },
+    "projectLink": "https://music-app-assignment.netlify.app/",
+    "githubLink": "https://github.com/Kanwar07/music-app",
+    "preview": "https://iili.io/d30vCzl.png"
   }
 ]
