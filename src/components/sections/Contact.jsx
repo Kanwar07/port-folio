@@ -2,8 +2,8 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="flex flex-col items-center w-full mt-20 mb-20">
-      <div className="flex flex-row flex-wrap text-[60px] text-[#000000] mb-8">
+    <div className="flex flex-col items-center w-full pl-[15%] pr-[15%] mt-20 mb-20">
+      <div className="flex flex-row flex-wrap justify-center text-[60px] text-[#000000] mb-8">
         <div className="mr-4">Let's</div>
         <div className="mr-4">have</div>
         <div className="mr-4">a</div>

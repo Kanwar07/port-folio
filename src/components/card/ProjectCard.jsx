@@ -14,7 +14,7 @@ function ProjectCard({
   const skillsArray = Object.values(skills);
   const descriptionArray = Object.values(description);
   return (
-    <div className="flex flex-row justify-between items-center w-screen pl-48 pr-48 mb-12">
+    <div className="flex flex-row justify-between items-center w-screen pl-[15%] pr-[15%] mb-12 max-lg:flex-col max-lg:mb-32">
       <div className="basis-0 flex-grow">
         <div className="mt-4 mb-4 text-[#808080] text-[24px]">
           {projectArea}
@@ -45,7 +45,7 @@ function ProjectCard({
             <img src={netlify} alt="netlify" />
           </div>
         </div>
-        <div className="inline-block mt-8 mb-8 border border-[#000000] rounded-lg">
+        <div className="inline-block mt-8 mb-8 border border-[#000000] rounded-lg max-lg:mb-16">
           <button className="border px-8 py-4 border-[#ed6955] rounded-lg bg-[#ed6955] text-[#ffffff] cursor-pointer transition ease-in-out duration-[400ms] -translate-y-4 -translate-x-4 hover:translate-y-0 hover:translate-x-0">
             View Project
           </button>

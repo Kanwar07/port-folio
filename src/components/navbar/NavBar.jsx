@@ -2,9 +2,9 @@ import React from "react";
 
 function NavBar() {
   return (
-    <nav className="flex flex-row justify-between items-center pl-40 pr-40 pt-8 pb-8 bg-[#121e27] text-[#ffffff]">
+    <nav className="flex flex-row justify-between items-center pl-[15%] pr-[15%] pt-8 pb-8 bg-[#121e27] text-[#ffffff] max-lg:flex-col">
       <div>
-        <div className="text-[22px] border-b-4 border-[#ed6955] cursor-pointer transition ease-in-out duration-300 hover:scale-110">
+        <div className="text-[22px] border-b-4 border-[#ed6955] cursor-pointer transition ease-in-out duration-300 hover:scale-110 max-lg:mb-12">
           Anmol Singh Kanwar
         </div>
       </div>

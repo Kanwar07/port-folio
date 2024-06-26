@@ -7,14 +7,14 @@ import Crio from "../../assets/Crio.png";
 
 function IntroPage() {
   return (
-    <section className="flex items-center pl-16 pr-16 h-[calc(100vh_-_6rem)] bg-[#121e27]">
-      <div className="flex items-center">
+    <section className="flex items-center pl-[15%] pr-[15%] h-full pt-44 pb-44 bg-[#121e27] max-lg:pt-0">
+      <div className="flex items-center max-lg:flex-col">
         <div className="w-full flex justify-center">
           <img
             src={me}
             alt="me"
             style={{ width: "256px", height: "312px" }}
-            className="rounded-xl transition ease-in-out delay-50 duration-500 hover:scale-110 hover:bg-black hover:opacity-60"
+            className="rounded-xl transition ease-in-out delay-50 duration-500 hover:scale-110 hover:bg-black hover:opacity-60 max-lg:mb-16 max-lg:mt-24"
           />
         </div>
         <div className="w-full">

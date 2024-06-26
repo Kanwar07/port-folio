@@ -6,11 +6,11 @@ import Crio from "../../assets/Crio.png";
 
 function Footer() {
   return (
-    <div className="flex justify-around items-center pl-16 pr-16 pt-20 pb-20 bg-[#121e27]">
-      <div className="text-[20px] text-[#ffffff] cursor-pointer">
+    <div className="flex flex-row justify-around items-center pl-[15%] pr-[15%] pt-20 pb-20 bg-[#121e27] max-lg:flex-col">
+      <div className="text-[20px] text-[#ffffff] cursor-pointer  max-lg:mb-16">
         Anmol Singh Kanwar
       </div>
-      <div className="text-[18px] text-[#ffffff]">
+      <div className="text-[18px] text-[#ffffff] max-lg:mb-16">
         Links
         <div className="text-[16px] text-[#ed6955] mt-2 mb-2 cursor-pointer">
           About

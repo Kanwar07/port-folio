@@ -5,7 +5,7 @@ import SkillCard from "../card/SkillCard";
 function Skills() {
   return (
     <>
-      <div className="flex flex-col justify-center items-center w-screen pl-40 pr-40 mt-10 mb-10">
+      <div className="flex flex-col justify-center items-center w-screen pl-[15%] pr-[15%] mt-10 mb-10">
         <div className="flex justify-start w-full mb-16 mt-16 text-[36px]">
           <div className="mr-2">My</div>
           <div className="relative inline-block">
