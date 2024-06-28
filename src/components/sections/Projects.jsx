@@ -5,7 +5,7 @@ import ProjectCard from "../card/ProjectCard";
 function Projects() {
   return (
     <div className="flex flex-col justify-center items-center w-screen pl-[15%] pr-[15%]">
-      <div className="relative inline-block flex justify-start w-full mb-20 text-[36px]">
+      <div className="relative inline-block flex justify-start w-full mt-32 mb-20 text-[36px] max-[400px]:mt-[80%] max-lg:mt-48">
         <div className="mr-2">My</div>
         <div className="relative inline-block">
           <div className="relative z-10">Projects</div>

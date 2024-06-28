@@ -2,24 +2,34 @@ import React from "react";
 
 function NavBar() {
   return (
-    <nav className="flex flex-row justify-between items-center pl-[15%] pr-[15%] pt-8 pb-8 bg-[#121e27] text-[#ffffff] max-lg:flex-col">
+    <nav className="fixed flex flex-row z-20 justify-between items-center w-full pl-[15%] pr-[15%] pt-8 pb-8 bg-[#121e27] text-[#ffffff] max-lg:flex-col">
       <div>
-        <div className="text-[22px] border-b-4 border-[#ed6955] cursor-pointer transition ease-in-out duration-300 hover:scale-110 max-lg:mb-12">
-          Anmol Singh Kanwar
+        <div className="text-[22px] border-b-4 border-[#ed6955] cursor-pointer transition ease-in-out duration-300 hover:scale-110 max-lg:mb-8">
+          <a href="#about" key="about">
+            Anmol Singh Kanwar
+          </a>
         </div>
       </div>
       <div className="flex flex-row justify-around items-center">
         <div className="ml-4 mr-4 border-b-4 border-[#ed6955] cursor-pointer transition ease-in-out duration-300 hover:scale-110">
-          About
+          <a href="#about" key="about">
+            About
+          </a>
         </div>
         <div className="ml-4 mr-4 border-b-4 border-[#ed6955] cursor-pointer transition ease-in-out duration-300 hover:scale-110">
-          Skills
+          <a href="#skills" key="skills">
+            Skills
+          </a>
         </div>
         <div className="ml-4 mr-4 border-b-4 border-[#ed6955] cursor-pointer transition ease-in-out duration-300 hover:scale-110">
-          Projects
+          <a href="#projects" key="projects">
+            Projects
+          </a>
         </div>
         <div className="ml-4 mr-4 border-b-4 border-[#ed6955] cursor-pointer transition ease-in-out duration-300 hover:scale-110">
-          Contact
+          <a href="#contact" key="contact">
+            Contact
+          </a>
         </div>
       </div>
     </nav>

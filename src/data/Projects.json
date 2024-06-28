@@ -99,6 +99,31 @@
   },
   {
     "id": "4",
+    "projectName": "Study Abroad",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "React",
+      "skill4": "ReactHooks",
+      "skill5": "MaterialUI",
+      "skill6": "TailwindCSS",
+      "skill7": "FramerMotion",
+      "skill8": "Iconify",
+      "skill9": "Netlify"
+    },
+    "description": {
+      "point1": "A Clone of a website which deal with the counselling of students who want to study in a different countries.",
+      "point2": "Added animation by using framer motion to make the website more appealing.",
+      "point3": "Make it responsive for both web and mobile",
+      "point4": "Successfully deployed the website on Netlify for easy access."
+    },
+    "projectLink": "https://thinkabroad.netlify.app/",
+    "githubLink": "/",
+    "preview": "https://iili.io/d3m2SUl.png"
+  },
+  {
+    "id": "5",
     "projectName": "Chaabi",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -121,7 +146,7 @@
     "preview": "https://iili.io/d3TCHxt.png"
   },
   {
-    "id": "5",
+    "id": "6",
     "projectName": "24 Carrots",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -143,7 +168,7 @@
     "preview": "https://iili.io/d3Ti0gf.png"
   },
   {
-    "id": "6",
+    "id": "7",
     "projectName": "Products Data",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -164,7 +189,7 @@
     "preview": "https://iili.io/d3Y67CN.png"
   },
   {
-    "id": "7",
+    "id": "8",
     "projectName": "Todo App",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -188,7 +213,7 @@
     "preview": "https://iili.io/d3an7ee.png"
   },
   {
-    "id": "8",
+    "id": "9",
     "projectName": "Maps",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -210,7 +235,7 @@
     "preview": "https://iili.io/d3asnUP.png"
   },
   {
-    "id": "9",
+    "id": "10",
     "projectName": "Forever",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -233,7 +258,7 @@
     "preview": "https://iili.io/d30dpNj.png"
   },
   {
-    "id": "10",
+    "id": "11",
     "projectName": "Music App",
     "projectArea": "Frontend Developer",
     "skills": {
