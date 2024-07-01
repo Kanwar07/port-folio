@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
     <div className="flex flex-col items-center w-full pl-[15%] pr-[15%] mt-20 mb-20">
-      <div className="flex flex-row flex-wrap justify-center text-[60px] text-[#000000] mt-0 max-[400px]:mt-[70%] max-lg:mt-48">
+      <div className="flex flex-row flex-wrap justify-center text-[60px] text-[#000000] mt-[20%] max-[400px]:mt-[70%] max-lg:mt-48">
         <div className="mr-4">Let's</div>
         <div className="mr-4">have</div>
         <div className="mr-4">a</div>
@@ -12,7 +12,7 @@ function Contact() {
           <div className="absolute left-2 right-0 bottom-[-8px] h-1/2 border border-[#ed6955] bg-[#ed6955] z-0"></div>
         </div>
       </div>
-      <div className="mb-8 text-[20px]">anmolkanwar07@gmail.com</div>
+      <div className="mb-8 mt-8 text-[20px]">anmolkanwar07@gmail.com</div>
       <div className="inline-block mt-8 mb-8 border border-[#000000] rounded-lg mb-8">
         <button className="border px-8 py-4 border-[#ed6955] cursor-pointer rounded-lg bg-[#ed6955] text-[#ffffff] transition ease-in-out duration-[400ms] -translate-y-4 -translate-x-4 hover:translate-y-0 hover:translate-x-0">
           <a href="mailto:anmolkanwar07@gmail.com">Get in touch</a>

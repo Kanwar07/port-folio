@@ -1,6 +1,7 @@
 import React from "react";
 import github from "../../assets/github.png";
 import netlify from "../../assets/netlify.png";
+import dot from "../../assets/dot.svg";
 
 function ProjectCard({
   projectName,
@@ -13,6 +14,9 @@ function ProjectCard({
 }) {
   const skillsArray = Object.values(skills);
   const descriptionArray = Object.values(description);
+
+  const handleprojectdetails = () => {};
+
   return (
     <div className="flex flex-row justify-between items-center w-screen pl-[15%] pr-[15%] mb-12 max-lg:flex-col max-lg:mb-32">
       <div className="basis-0 flex-grow">
@@ -30,13 +34,14 @@ function ProjectCard({
             </div>
           ))}
         </div>
-        <ul className="mt-4 mb-4">
+        <div className="mt-4 mb-4">
           {descriptionArray.map((description, index) => (
-            <li key={index} className="mb-2">
-              {description}
-            </li>
+            <div key={index} className="mb-4 flex items-center">
+              <img src={dot} alt="dot" className="mr-2" />
+              <span>{description}</span>
+            </div>
           ))}
-        </ul>
+        </div>
         <div className="flex flex-row mt-6 mb-6">
           <a href={githubLink}>
             <div className="mr-2 cursor-pointer">
@@ -49,7 +54,7 @@ function ProjectCard({
             </div>
           </a>
         </div>
-        <div className="inline-block mt-8 mb-8 border border-[#000000] rounded-lg max-lg:mb-16">
+        <div className="inline-block mt-8 mb-8 border border-2 border-[#000000] rounded-lg max-lg:mb-16">
           <button className="border px-8 py-4 border-[#ed6955] rounded-lg bg-[#ed6955] text-[#ffffff] cursor-pointer transition ease-in-out duration-[400ms] -translate-y-4 -translate-x-4 hover:translate-y-0 hover:translate-x-0">
             View Project
           </button>
@@ -60,7 +65,7 @@ function ProjectCard({
           <img
             src={preview}
             alt="preview"
-            className="border border-[#000000] transition ease-in-out delay-150 rounded-2xl cursor-pointer hover:-translate-y-4 hover:shadow-2xl hover:scale-110 duration-500"
+            className="border border-[#000000] transition ease-in-out delay-150 rounded-2xl cursor-pointer hover:-translate-y-4 hover:shadow-[0_65px_60px_-20px_rgba(0,0,0,0.8)] hover:scale-110 duration-500"
           />
         </a>
       </div>

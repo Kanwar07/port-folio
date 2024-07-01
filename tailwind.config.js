@@ -4,20 +4,23 @@ module.exports = {
     height: {
       "calc-full-minus-4rem": "calc(100% - 4rem)",
     },
-    animation: {
-      roll: "roll 199.86678536727527s infinite linear",
-      pulse: "pulse 7.980692062650936s infinite",
-    },
-    keyframes: {
-      roll: {
-        "0%": { transform: "rotate(0deg)" },
-        "100%": { transform: "rotate(360deg)" },
-      },
-      pulse: {
-        "0%, 100%": { opacity: 1 },
-        "50%": { opacity: 0.5 },
-      },
-    },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        "::-webkit-scrollbar": {
+          "background-color": "transparent",
+          width: "11px",
+        },
+        "::-webkit-scrollbar-track": {
+          background: "#ed695550",
+          "box-shadow": "inset 0 0 2px #585858",
+        },
+        "::-webkit-scrollbar-thumb": {
+          background: "#ed6955",
+          "border-radius": "20px",
+        },
+      });
+    },
+  ],
 };
