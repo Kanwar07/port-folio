@@ -1,21 +1,19 @@
 import React from "react";
-import github from "../../assets/github.png";
-import netlify from "../../assets/netlify.png";
 import dot from "../../assets/dot.svg";
+import { NavLink } from "react-router-dom";
 
 function ProjectCard({
   projectName,
   projectArea,
   skills,
   description,
+  moredata,
   projectLink,
   githubLink,
   preview,
 }) {
   const skillsArray = Object.values(skills);
   const descriptionArray = Object.values(description);
-
-  const handleprojectdetails = () => {};
 
   return (
     <div className="flex flex-row justify-between items-center w-screen pl-[15%] pr-[15%] mb-12 max-lg:flex-col max-lg:mb-32">
@@ -42,23 +40,24 @@ function ProjectCard({
             </div>
           ))}
         </div>
-        <div className="flex flex-row mt-6 mb-6">
-          <a href={githubLink}>
-            <div className="mr-2 cursor-pointer">
-              <img src={github} alt="github" />
-            </div>
-          </a>
-          <a href={projectLink}>
-            <div className="ml-2 mr-2 cursor-pointer">
-              <img src={netlify} alt="netlify" />
-            </div>
-          </a>
-        </div>
-        <div className="inline-block mt-8 mb-8 border border-2 border-[#000000] rounded-lg max-lg:mb-16">
-          <button className="border px-8 py-4 border-[#ed6955] rounded-lg bg-[#ed6955] text-[#ffffff] cursor-pointer transition ease-in-out duration-[400ms] -translate-y-4 -translate-x-4 hover:translate-y-0 hover:translate-x-0">
-            View Project
-          </button>
-        </div>
+        <NavLink
+          to="/projectdetails"
+          state={{
+            projectName,
+            projectArea,
+            skills,
+            description,
+            projectLink,
+            githubLink,
+            preview,
+          }}
+        >
+          <div className="inline-block mt-8 mb-8 border border-2 border-[#000000] rounded-lg max-lg:mb-16">
+            <button className="border px-8 py-4 border-[#ed6955] rounded-lg bg-[#ed6955] text-[#ffffff] cursor-pointer transition ease-in-out duration-[400ms] -translate-y-4 -translate-x-4 hover:translate-y-0 hover:translate-x-0">
+              View Project
+            </button>
+          </div>
+        </NavLink>
       </div>
       <div className="basis-0 flex-grow pl-10 max-lg:pl-0">
         <a href={projectLink}>

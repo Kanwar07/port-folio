@@ -37,6 +37,11 @@
       "point5": "Dynamically loaded and presented data from the backend server through REST APIs, ensuring real-time information.",
       "point6": "Successfully deployed the website on Netlify for easy access."
     },
+    "moredata": {
+      "point1": "hey",
+      "point2": "hey1",
+      "point3": "hey2"
+    },
     "projectLink": "https://q-kart-front-end.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/anmolkanwar07-ME_QKART_FRONTEND_V2",
     "preview": "https://iili.io/d2bdHqg.png"
@@ -71,6 +76,11 @@
       "point4": "Utilized localStorage to persist user preferences at client-side and facilitated reservation form submission using fetch API.",
       "point5": "Deployed the website using Netlify/Vercel for Frontend and Render for Backend"
     },
+    "moredata": {
+      "point1": "hey",
+      "point2": "hey1",
+      "point3": "hey2"
+    },
     "projectLink": "https://qtripdynamic-kanwar.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/anmolkanwar07-ME_QTRIPDYNAMIC",
     "preview": "https://iili.io/d3TKtUl.png"
@@ -92,6 +102,11 @@
       "point2": "Used Tailwind CSS for styling",
       "point3": "Used Context API to store all the data in single file and use them in anywhere in the project",
       "point4": "Successfully deployed the website on Netlify for easy access."
+    },
+    "moredata": {
+      "point1": "hey",
+      "point2": "hey1",
+      "point3": "hey2"
     },
     "projectLink": "https://countdowntimer-assignment.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/Countdown-Timer",
@@ -118,6 +133,11 @@
       "point3": "Make it responsive for both web and mobile",
       "point4": "Successfully deployed the website on Netlify for easy access."
     },
+    "moredata": {
+      "point1": "hey",
+      "point2": "hey1",
+      "point3": "hey2"
+    },
     "projectLink": "https://thinkabroad.netlify.app/",
     "githubLink": "/",
     "preview": "https://iili.io/d3m2SUl.png"
@@ -141,6 +161,11 @@
       "point3": "React Chart is used for creating different Graphs and Charts",
       "point4": "Successfully deployed the website on Netlify for easy access."
     },
+    "moredata": {
+      "point1": "hey",
+      "point2": "hey1",
+      "point3": "hey2"
+    },
     "projectLink": "https://chaabi-temp.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/Chaabi",
     "preview": "https://iili.io/d3TCHxt.png"
@@ -163,6 +188,11 @@
       "point3": "React Responsive Carousel is used for creating different carousel of images",
       "point4": "Successfully deployed the website on Netlify for easy access."
     },
+    "moredata": {
+      "point1": "hey",
+      "point2": "hey1",
+      "point3": "hey2"
+    },
     "projectLink": "https://rozirotiwork-assignment.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/roziroti.work-assignment",
     "preview": "https://iili.io/d3Ti0gf.png"
@@ -183,6 +213,11 @@
       "point2": "Used Material UI for React Components and styling",
       "point3": "Used react hooks for saving data and adding data from json",
       "point4": "Successfully deployed the website on Netlify for easy access."
+    },
+    "moredata": {
+      "point1": "hey",
+      "point2": "hey1",
+      "point3": "hey2"
     },
     "projectLink": "https://productdatadetails.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/product-data",
@@ -208,6 +243,11 @@
       "point3": "Used Redux to store data and created Slice (State & action) for data Manipulation",
       "point4": "Successfully deployed the website on Netlify for easy access."
     },
+    "moredata": {
+      "point1": "hey",
+      "point2": "hey1",
+      "point3": "hey2"
+    },
     "projectLink": "https://app01todos.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/todo-app",
     "preview": "https://iili.io/d3an7ee.png"
@@ -229,6 +269,11 @@
       "point2": "Added polygon layer using custom data in React Leaflet, coloring states based on coordinates.",
       "point3": "Map interaction events mouse over, mouse out and click to show data in UI card(React Leaflet Custom Control).",
       "point4": "Successfully deployed the website on Netlify for easy access."
+    },
+    "moredata": {
+      "point1": "hey",
+      "point2": "hey1",
+      "point3": "hey2"
     },
     "projectLink": "https://mapsassessment.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/maps",
@@ -253,6 +298,11 @@
       "point3": "Used React Slidershow for image slideshow",
       "point4": "Successfully deployed the website on Netlify for easy access."
     },
+    "moredata": {
+      "point1": "hey",
+      "point2": "hey1",
+      "point3": "hey2"
+    },
     "projectLink": "https://forever01.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/forever",
     "preview": "https://iili.io/d30dpNj.png"
@@ -272,6 +322,11 @@
       "point1": "A Music Player where you can upload and play songs",
       "point2": "Audio tag is used to play songs along with useRef to play songs one after the other",
       "point3": "Successfully deployed the website on Netlify for easy access."
+    },
+    "moredata": {
+      "point1": "hey",
+      "point2": "hey1",
+      "point3": "hey2"
     },
     "projectLink": "https://music-app-assignment.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/music-app",

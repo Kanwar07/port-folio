@@ -7,7 +7,6 @@ function Projects() {
 
   const handleprojects = () => {
     setvisibleprojects(visibleprojects + 3);
-    console.log(visibleprojects);
   };
   return (
     <div className="flex flex-col justify-center items-center w-screen pl-[15%] pr-[15%]">
@@ -26,6 +25,7 @@ function Projects() {
             projectArea,
             skills,
             description,
+            moredata,
             projectLink,
             githubLink,
             preview,
@@ -38,6 +38,7 @@ function Projects() {
                   projectArea,
                   skills,
                   description,
+                  moredata,
                   projectLink,
                   githubLink,
                   preview,

@@ -1,29 +1,18 @@
 import "./App.css";
-import Footer from "./components/footer/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MainPage from "./components/pages/MainPage";
+import ProjectDetails from "./components/pages/ProjectDetails";
 import NavBar from "./components/navbar/NavBar";
-import Contact from "./components/sections/Contact";
-import Intro from "./components/sections/Intro";
-import Projects from "./components/sections/Projects";
-import Skills from "./components/sections/Skills";
 
 function App() {
   return (
-    <div>
+    <Router>
       <NavBar />
-      <section id="about">
-        <Intro />
-      </section>
-      <section id="skills">
-        <Skills />
-      </section>
-      <section id="projects">
-        <Projects />
-      </section>
-      <section id="contact">
-        <Contact />
-      </section>
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/projectdetails" element={<ProjectDetails />} />
+      </Routes>
+    </Router>
   );
 }
 
