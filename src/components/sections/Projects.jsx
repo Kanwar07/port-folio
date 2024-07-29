@@ -10,24 +10,15 @@ function Projects() {
     setvisibleprojects(visibleprojects + 3);
   };
 
-  const containerVariants = {
-    hidden: { opacity: 1, scale: 0 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        delayChildren: 0.3,
-        staggerChildren: 0.2,
-      },
-    },
-  };
-
   return (
     <div className="flex flex-col justify-center items-center w-screen pl-[15%] pr-[15%]">
       <motion.div
         initial={{ scale: 0, opacity: 1 }}
-        animate={{ scale: 1, opacity: 1 }}
+        whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 2, ease: "easeInOut" }}
+        viewport={{
+          once: true,
+        }}
         className="relative inline-block flex justify-start w-full mt-32 mb-20 text-[36px] max-[400px]:mt-[80%] max-lg:mt-48"
       >
         <div className="mr-2">My</div>
@@ -69,12 +60,12 @@ function Projects() {
       </div>
       {visibleprojects < projects.length ? (
         <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ scale: 0, opacity: 1 }}
+          whileInView={{ scale: 1, opacity: 1 }}
           viewport={{
             once: true,
           }}
+          transition={{ duration: 1, ease: "easeInOut" }}
           className="inline-block mt-8 mb-8 border border-2 border-[#000000] rounded-lg max-lg:mb-16"
         >
           <button
@@ -86,12 +77,12 @@ function Projects() {
         </motion.div>
       ) : (
         <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
+          initial={{ scale: 0, opacity: 1 }}
+          whileInView={{ scale: 1, opacity: 1 }}
           viewport={{
             once: true,
           }}
+          transition={{ duration: 2, ease: "easeInOut" }}
           className="inline-block mt-8 mb-8 border border-2 border-[#000000] rounded-lg max-lg:mb-16"
         >
           <button className="border px-8 py-4 border-[#ed6955] rounded-lg bg-[#ed6955] text-[#ffffff] cursor-pointer transition ease-in-out duration-[400ms] -translate-y-4 -translate-x-4 hover:translate-y-0 hover:translate-x-0">

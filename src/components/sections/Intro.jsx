@@ -11,8 +11,11 @@ function IntroPage() {
     <div className="flex items-center pl-[15%] pr-[15%] w-full h-screen pt-40 pb-40 bg-[#121e27] max-[400px]:pt-[25%] max-[400px]:pb-[25%] max-lg:pt-48 max-lg:flex-col max-lg:h-full">
       <motion.div
         initial={{ scale: 0, opacity: 1 }}
-        animate={{ scale: 1, opacity: 1 }}
+        whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 2, ease: "easeInOut" }}
+        viewport={{
+          once: true,
+        }}
         className="w-full flex justify-center"
       >
         <img
@@ -24,8 +27,11 @@ function IntroPage() {
       </motion.div>
       <motion.div
         initial={{ x: -200, opacity: 1 }}
-        animate={{ x: 0, opacity: 1 }}
+        whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 2, ease: "easeInOut" }}
+        viewport={{
+          once: true,
+        }}
         className="w-full"
       >
         <div className="flex flex-row flex-wrap text-[50px] text-[#ffffff]">
@@ -39,6 +45,9 @@ function IntroPage() {
               <div className="relative z-10">Frontend</div>
               <div className="absolute left-2 right-0 bottom-[-8px] h-1/2 border border-[#ed6955] bg-[#ed6955] z-0"></div>
             </div>
+            <span className="hidden max-sm:block">
+              <br />
+            </span>
             <div className="relative mr-4 inline-block">
               <div className="relative z-10">Developer</div>
               <div className="absolute left-2 right-0 bottom-[-8px] h-1/2 border border-[#ed6955] bg-[#ed6955] z-0"></div>

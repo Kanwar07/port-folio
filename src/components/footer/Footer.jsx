@@ -10,9 +10,8 @@ function Footer() {
     <div className="flex flex-row justify-around items-center pl-[15%] pr-[15%] pt-20 pb-20 bg-[#121e27] max-lg:flex-col">
       <motion.div
         initial={{ scale: 0, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 2, ease: "easeInOut" }}
-        whileInView="visible"
+        whileInView={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
         viewport={{
           once: true,
         }}
@@ -24,9 +23,8 @@ function Footer() {
       </motion.div>
       <motion.div
         initial={{ scale: 0, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 2, ease: "easeInOut" }}
-        whileInView="visible"
+        whileInView={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
         viewport={{
           once: true,
         }}
@@ -56,9 +54,8 @@ function Footer() {
       </motion.div>
       <motion.div
         initial={{ scale: 0, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 2, ease: "easeInOut" }}
-        whileInView="visible"
+        whileInView={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1, ease: "easeInOut" }}
         viewport={{
           once: true,
         }}

@@ -10,7 +10,7 @@ function Contact() {
         viewport={{
           once: true,
         }}
-        transition={{ duration: 2, ease: "easeInOut" }}
+        transition={{ duration: 1, ease: "easeInOut" }}
         className="flex flex-row flex-wrap justify-center text-[60px] text-[#000000] mt-[20%] max-[400px]:mt-[70%] max-lg:mt-48"
       >
         <div className="mr-4">Let's</div>
@@ -27,7 +27,7 @@ function Contact() {
         viewport={{
           once: true,
         }}
-        transition={{ duration: 2, delay: 0.5, ease: "easeInOut" }}
+        transition={{ duration: 1, delay: 0.5, ease: "easeInOut" }}
         className="mb-8 mt-8 text-[20px]"
       >
         anmolkanwar07@gmail.com
@@ -38,7 +38,7 @@ function Contact() {
         viewport={{
           once: true,
         }}
-        transition={{ duration: 2, delay: 1, ease: "easeInOut" }}
+        transition={{ duration: 1, delay: 1, ease: "easeInOut" }}
         className="inline-block mt-8 mb-8 border border-[#000000] rounded-lg mb-8"
       >
         <button className="border px-8 py-4 border-[#ed6955] cursor-pointer rounded-lg bg-[#ed6955] text-[#ffffff] transition ease-in-out duration-[400ms] -translate-y-4 -translate-x-4 hover:translate-y-0 hover:translate-x-0">
