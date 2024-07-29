@@ -31,6 +31,12 @@
   },
   {
     "skill": "React",
+    "description": "Frontend/Library",
+    "color": "#FFEA00",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "Next",
     "description": "Frontend/Framework",
     "color": "#FFEA00",
     "textcolor": "#000000"
@@ -115,6 +121,12 @@
   },
   {
     "skill": "Tailwind CSS",
+    "description": "Frontend/Styling",
+    "color": "#FFEA00",
+    "textcolor": "#000000"
+  },
+  {
+    "skill": "Shadcn",
     "description": "Frontend/Styling",
     "color": "#FFEA00",
     "textcolor": "#000000"

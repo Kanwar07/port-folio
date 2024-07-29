@@ -37,17 +37,82 @@
       "point5": "Dynamically loaded and presented data from the backend server through REST APIs, ensuring real-time information.",
       "point6": "Successfully deployed the website on Netlify for easy access."
     },
-    "moredata": {
-      "point1": "hey",
-      "point2": "hey1",
-      "point3": "hey2"
-    },
     "projectLink": "https://q-kart-front-end.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/anmolkanwar07-ME_QKART_FRONTEND_V2",
     "preview": "https://iili.io/d2bdHqg.png"
   },
   {
     "id": "2",
+    "projectName": "My Company",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "React",
+      "skill5": "TailwindCSS",
+      "skill6": "FramerMotion",
+      "skill7": "Vercel"
+    },
+    "description": {
+      "point1": "A Website for App Development Services",
+      "point2": "Used Tailwind CSS for styling",
+      "point3": "Used Framer-motion to add animation and make the app more dynamic",
+      "point4": "Dynamically responsive",
+      "point5": "Successfully deployed the website on Vercel for easy access."
+    },
+    "projectLink": "https://my-company-nine.vercel.app/",
+    "githubLink": "https://github.com/Kanwar07/MyCompany",
+    "preview": "https://iili.io/dThEXuR.png"
+  },
+  {
+    "id": "3",
+    "projectName": "CountDown Timer",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "React",
+      "skill4": "ContextAPI",
+      "skill5": "TailwindCSS",
+      "skill6": "Netlify"
+    },
+    "description": {
+      "point1": "A CountDown Timer to do everything on time",
+      "point2": "Used Tailwind CSS for styling",
+      "point3": "Used Context API to store all the data in single file and use them in anywhere in the project",
+      "point4": "Successfully deployed the website on Netlify for easy access."
+    },
+    "projectLink": "https://countdowntimer-assignment.netlify.app/",
+    "githubLink": "https://github.com/Kanwar07/Countdown-Timer",
+    "preview": "https://iili.io/d3aj0Zu.png"
+  },
+  {
+    "id": "4",
+    "projectName": "Food Mania",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "React",
+      "skill4": "ContextAPI",
+      "skill5": "TailwindCSS",
+      "skill6": "FramerMotion",
+      "skill7": "Vercel"
+    },
+    "description": {
+      "point1": "A Resturant app to order food",
+      "point2": "Used Tailwind CSS for styling",
+      "point3": "Used Framer-motion to add animation and make the app more dynamic",
+      "point4": "Tailored for mobile devices",
+      "point5": "Used Context API to store all the data in single file and use them in anywhere in the project",
+      "point6": "Successfully deployed the website on Vercel for easy access."
+    },
+    "projectLink": "https://restaurant-six-wine.vercel.app/",
+    "githubLink": "https://github.com/Kanwar07/Restaurant",
+    "preview": "https://iili.io/dT0xgqb.png"
+  },
+  {
+    "id": "5",
     "projectName": "QTripDynamic",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -76,44 +141,12 @@
       "point4": "Utilized localStorage to persist user preferences at client-side and facilitated reservation form submission using fetch API.",
       "point5": "Deployed the website using Netlify/Vercel for Frontend and Render for Backend"
     },
-    "moredata": {
-      "point1": "hey",
-      "point2": "hey1",
-      "point3": "hey2"
-    },
     "projectLink": "https://qtripdynamic-kanwar.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/anmolkanwar07-ME_QTRIPDYNAMIC",
     "preview": "https://iili.io/d3TKtUl.png"
   },
   {
-    "id": "3",
-    "projectName": "CountDown Timer",
-    "projectArea": "Frontend Developer",
-    "skills": {
-      "skill1": "HTML/CSS",
-      "skill2": "JavaScript",
-      "skill3": "React",
-      "skill4": "ContextAPI",
-      "skill5": "TailwindCSS",
-      "skill6": "Netlify"
-    },
-    "description": {
-      "point1": "A CountDown Timer to do everything on time",
-      "point2": "Used Tailwind CSS for styling",
-      "point3": "Used Context API to store all the data in single file and use them in anywhere in the project",
-      "point4": "Successfully deployed the website on Netlify for easy access."
-    },
-    "moredata": {
-      "point1": "hey",
-      "point2": "hey1",
-      "point3": "hey2"
-    },
-    "projectLink": "https://countdowntimer-assignment.netlify.app/",
-    "githubLink": "https://github.com/Kanwar07/Countdown-Timer",
-    "preview": "https://iili.io/d3aj0Zu.png"
-  },
-  {
-    "id": "4",
+    "id": "6",
     "projectName": "Study Abroad",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -133,17 +166,12 @@
       "point3": "Make it responsive for both web and mobile",
       "point4": "Successfully deployed the website on Netlify for easy access."
     },
-    "moredata": {
-      "point1": "hey",
-      "point2": "hey1",
-      "point3": "hey2"
-    },
     "projectLink": "https://thinkabroad.netlify.app/",
     "githubLink": "/",
     "preview": "https://iili.io/d3m2SUl.png"
   },
   {
-    "id": "5",
+    "id": "7",
     "projectName": "Chaabi",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -161,17 +189,12 @@
       "point3": "React Chart is used for creating different Graphs and Charts",
       "point4": "Successfully deployed the website on Netlify for easy access."
     },
-    "moredata": {
-      "point1": "hey",
-      "point2": "hey1",
-      "point3": "hey2"
-    },
     "projectLink": "https://chaabi-temp.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/Chaabi",
     "preview": "https://iili.io/d3TCHxt.png"
   },
   {
-    "id": "6",
+    "id": "8",
     "projectName": "24 Carrots",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -188,17 +211,12 @@
       "point3": "React Responsive Carousel is used for creating different carousel of images",
       "point4": "Successfully deployed the website on Netlify for easy access."
     },
-    "moredata": {
-      "point1": "hey",
-      "point2": "hey1",
-      "point3": "hey2"
-    },
     "projectLink": "https://rozirotiwork-assignment.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/roziroti.work-assignment",
     "preview": "https://iili.io/d3Ti0gf.png"
   },
   {
-    "id": "7",
+    "id": "9",
     "projectName": "Products Data",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -214,17 +232,12 @@
       "point3": "Used react hooks for saving data and adding data from json",
       "point4": "Successfully deployed the website on Netlify for easy access."
     },
-    "moredata": {
-      "point1": "hey",
-      "point2": "hey1",
-      "point3": "hey2"
-    },
     "projectLink": "https://productdatadetails.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/product-data",
     "preview": "https://iili.io/d3Y67CN.png"
   },
   {
-    "id": "8",
+    "id": "10",
     "projectName": "Todo App",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -243,17 +256,12 @@
       "point3": "Used Redux to store data and created Slice (State & action) for data Manipulation",
       "point4": "Successfully deployed the website on Netlify for easy access."
     },
-    "moredata": {
-      "point1": "hey",
-      "point2": "hey1",
-      "point3": "hey2"
-    },
     "projectLink": "https://app01todos.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/todo-app",
     "preview": "https://iili.io/d3an7ee.png"
   },
   {
-    "id": "9",
+    "id": "11",
     "projectName": "Maps",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -270,17 +278,12 @@
       "point3": "Map interaction events mouse over, mouse out and click to show data in UI card(React Leaflet Custom Control).",
       "point4": "Successfully deployed the website on Netlify for easy access."
     },
-    "moredata": {
-      "point1": "hey",
-      "point2": "hey1",
-      "point3": "hey2"
-    },
     "projectLink": "https://mapsassessment.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/maps",
     "preview": "https://iili.io/d3asnUP.png"
   },
   {
-    "id": "10",
+    "id": "12",
     "projectName": "Forever",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -298,17 +301,12 @@
       "point3": "Used React Slidershow for image slideshow",
       "point4": "Successfully deployed the website on Netlify for easy access."
     },
-    "moredata": {
-      "point1": "hey",
-      "point2": "hey1",
-      "point3": "hey2"
-    },
     "projectLink": "https://forever01.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/forever",
     "preview": "https://iili.io/d30dpNj.png"
   },
   {
-    "id": "11",
+    "id": "13",
     "projectName": "Music App",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -322,11 +320,6 @@
       "point1": "A Music Player where you can upload and play songs",
       "point2": "Audio tag is used to play songs along with useRef to play songs one after the other",
       "point3": "Successfully deployed the website on Netlify for easy access."
-    },
-    "moredata": {
-      "point1": "hey",
-      "point2": "hey1",
-      "point3": "hey2"
     },
     "projectLink": "https://music-app-assignment.netlify.app/",
     "githubLink": "https://github.com/Kanwar07/music-app",

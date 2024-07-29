@@ -4,10 +4,10 @@ import ProjectCard from "../card/ProjectCard";
 import { motion } from "framer-motion";
 
 function Projects() {
-  const [visibleprojects, setvisibleprojects] = useState(3);
+  const [visibleprojects, setvisibleprojects] = useState(4);
 
   const handleprojects = () => {
-    setvisibleprojects(visibleprojects + 3);
+    setvisibleprojects(visibleprojects + 4);
   };
 
   return (
@@ -15,7 +15,7 @@ function Projects() {
       <motion.div
         initial={{ scale: 0, opacity: 1 }}
         whileInView={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 2, ease: "easeInOut" }}
+        transition={{ duration: 1, ease: "easeInOut" }}
         viewport={{
           once: true,
         }}
