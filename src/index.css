@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  .animate-typing {
+    animation: typing 4s ease-in-out;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
+
 ::-webkit-scrollbar {
   @apply bg-transparent w-[11px];
 }

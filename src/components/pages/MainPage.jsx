@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "../footer/Footer";
-import NavBar from "../navbar/NavBar";
 import Contact from "../sections/Contact";
 import Intro from "../sections/Intro";
 import Projects from "../sections/Projects";

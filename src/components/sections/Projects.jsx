@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import projects from "../../data/Projects.json";
 import ProjectCard from "../card/ProjectCard";
+import { motion } from "framer-motion";
 
 function Projects() {
   const [visibleprojects, setvisibleprojects] = useState(3);
@@ -8,15 +9,33 @@ function Projects() {
   const handleprojects = () => {
     setvisibleprojects(visibleprojects + 3);
   };
+
+  const containerVariants = {
+    hidden: { opacity: 1, scale: 0 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delayChildren: 0.3,
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
   return (
     <div className="flex flex-col justify-center items-center w-screen pl-[15%] pr-[15%]">
-      <div className="relative inline-block flex justify-start w-full mt-32 mb-20 text-[36px] max-[400px]:mt-[80%] max-lg:mt-48">
+      <motion.div
+        initial={{ scale: 0, opacity: 1 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 2, ease: "easeInOut" }}
+        className="relative inline-block flex justify-start w-full mt-32 mb-20 text-[36px] max-[400px]:mt-[80%] max-lg:mt-48"
+      >
         <div className="mr-2">My</div>
         <div className="relative inline-block">
           <div className="relative z-10">Projects</div>
           <div className="absolute left-2 right-0 bottom-0 h-1/2 border border-[#ed6955] bg-[#ed6955] z-0"></div>
         </div>
-      </div>
+      </motion.div>
       <div className="flex flex-col justify-start">
         {projects.slice(0, visibleprojects).map((project) => {
           const {
@@ -49,20 +68,36 @@ function Projects() {
         })}
       </div>
       {visibleprojects < projects.length ? (
-        <div className="inline-block mt-8 mb-8 border border-2 border-[#000000] rounded-lg max-lg:mb-16">
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{
+            once: true,
+          }}
+          className="inline-block mt-8 mb-8 border border-2 border-[#000000] rounded-lg max-lg:mb-16"
+        >
           <button
             onClick={handleprojects}
             className="border px-8 py-4 border-[#ed6955] rounded-lg bg-[#ed6955] text-[#ffffff] cursor-pointer transition ease-in-out duration-[400ms] -translate-y-4 -translate-x-4 hover:translate-y-0 hover:translate-x-0"
           >
             Read more
           </button>
-        </div>
+        </motion.div>
       ) : (
-        <div className="inline-block mt-8 mb-8 border border-2 border-[#000000] rounded-lg max-lg:mb-16">
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{
+            once: true,
+          }}
+          className="inline-block mt-8 mb-8 border border-2 border-[#000000] rounded-lg max-lg:mb-16"
+        >
           <button className="border px-8 py-4 border-[#ed6955] rounded-lg bg-[#ed6955] text-[#ffffff] cursor-pointer transition ease-in-out duration-[400ms] -translate-y-4 -translate-x-4 hover:translate-y-0 hover:translate-x-0">
             More Coming soon
           </button>
-        </div>
+        </motion.div>
       )}
     </div>
   );
