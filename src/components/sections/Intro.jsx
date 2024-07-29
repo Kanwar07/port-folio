@@ -45,7 +45,7 @@ function IntroPage() {
               <div className="relative z-10">Frontend</div>
               <div className="absolute left-2 right-0 bottom-[-8px] h-1/2 border border-[#ed6955] bg-[#ed6955] z-0"></div>
             </div>
-            <span className="hidden max-sm:block">
+            <span className="hidden max-sm:block h-4">
               <br />
             </span>
             <div className="relative mr-4 inline-block">
