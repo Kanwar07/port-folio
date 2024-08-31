@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 function IntroPage() {
   return (
-    <div className="flex items-center pl-[15%] pr-[15%] w-full h-screen pt-40 pb-40 bg-[#121e27] max-[400px]:pt-[25%] max-[400px]:pb-[25%] max-lg:pt-48 max-lg:flex-col max-lg:h-full">
+    <div className="flex items-center px-[15%] w-full h-screen py-40 bg-[#121e27] max-[400px]:py-[25%] max-lg:flex-col max-lg:h-full">
       <motion.div
         initial={{ scale: 0, opacity: 1 }}
         whileInView={{ scale: 1, opacity: 1 }}

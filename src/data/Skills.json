@@ -154,5 +154,11 @@
     "description": "Deployment",
     "color": "#5D3FD3",
     "textcolor": "#ffffff"
+  },
+  {
+    "skill": "Vercel",
+    "description": "Deployment",
+    "color": "#5D3FD3",
+    "textcolor": "#ffffff"
   }
 ]

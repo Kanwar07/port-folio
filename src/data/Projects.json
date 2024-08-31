@@ -43,48 +43,63 @@
   },
   {
     "id": "2",
-    "projectName": "My Company",
+    "projectName": "Lead Management",
     "projectArea": "Frontend Developer",
     "skills": {
       "skill1": "HTML/CSS",
-      "skill2": "JavaScript",
-      "skill3": "React",
+      "skill2": "TypeScript",
+      "skill3": "Next",
       "skill5": "TailwindCSS",
-      "skill6": "FramerMotion",
-      "skill7": "Vercel"
+      "skill6": "Vercel"
     },
     "description": {
-      "point1": "A Website for App Development Services",
+      "point1": "A Website for Converting leads stored in csv file to json",
       "point2": "Used Tailwind CSS for styling",
-      "point3": "Used Framer-motion to add animation and make the app more dynamic",
+      "point3": "Upload CSV file and by using papaparse it is conerted to json format which is displayed in tabular form in which each cell is editable.",
       "point4": "Dynamically responsive",
       "point5": "Successfully deployed the website on Vercel for easy access."
     },
-    "projectLink": "https://my-company-nine.vercel.app/",
-    "githubLink": "https://github.com/Kanwar07/MyCompany",
-    "preview": "https://iili.io/dThEXuR.png"
+    "projectLink": "https://lead-management-eight.vercel.app/",
+    "githubLink": "https://github.com/Kanwar07/lead-management",
+    "preview": "https://iili.io/dNVK0ns.png"
   },
   {
     "id": "3",
-    "projectName": "CountDown Timer",
+    "projectName": "ShopHive",
     "projectArea": "Frontend Developer",
     "skills": {
       "skill1": "HTML/CSS",
       "skill2": "JavaScript",
       "skill3": "React",
-      "skill4": "ContextAPI",
-      "skill5": "TailwindCSS",
-      "skill6": "Netlify"
+      "skill4": "Axios",
+      "skill5": "Framer-motion",
+      "skill6": "Material UI",
+      "skill7": "React Hooks",
+      "skill8": "React Router",
+      "skill9": "localStorage",
+      "skill10": "React-hot-toast",
+      "skill11": "ContextAPI",
+      "skill12": "TailwindCSS",
+      "skill13": "Vercel"
     },
     "description": {
-      "point1": "A CountDown Timer to do everything on time",
-      "point2": "Used Tailwind CSS for styling",
-      "point3": "Used Context API to store all the data in single file and use them in anywhere in the project",
-      "point4": "Successfully deployed the website on Netlify for easy access."
+      "point1": "A Shopping Website",
+      "point2": "Fetching Items from API using axios and useEffect(React Hook) and storing them in useState(React Hook).",
+      "point3": "Added navigation using react routor dom.",
+      "point4": "Various pages like HeroImage Page, Login, Register, Product, Cart and Confimation Page.",
+      "point5": "Added validation in both Login as well as Register Page.",
+      "point6": "Used grid to display data which is responsive and dynamic.",
+      "point7": "Adding Product to cart have a counter on Cart icon in NavBar.",
+      "point8": "Cart Page include Increase and Decrease quantity, Delete Product, discount Option and Total Calculation.",
+      "point9": "Used React-hot-toast to give pop up success and error messages.",
+      "point10": "Used localStorage to store cart data until order is confirmed.",
+      "point11": "Used Tailwind CSS for styling",
+      "point12": "Used Framer-motion to add animation and make the app more dynamic",
+      "point13": "Successfully deployed the website on Vercel for easy access."
     },
-    "projectLink": "https://countdowntimer-assignment.netlify.app/",
-    "githubLink": "https://github.com/Kanwar07/Countdown-Timer",
-    "preview": "https://iili.io/d3aj0Zu.png"
+    "projectLink": "https://shop-hive-iota.vercel.app/",
+    "githubLink": "https://github.com/Kanwar07/Shop-Hive",
+    "preview": "https://iili.io/dNVQFHv.png"
   },
   {
     "id": "4",
@@ -172,6 +187,51 @@
   },
   {
     "id": "7",
+    "projectName": "My Company",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "Next",
+      "skill5": "TailwindCSS",
+      "skill6": "FramerMotion",
+      "skill7": "Vercel"
+    },
+    "description": {
+      "point1": "A Website for App Development Services",
+      "point2": "Used Tailwind CSS for styling",
+      "point3": "Used Framer-motion to add animation and make the app more dynamic",
+      "point4": "Dynamically responsive",
+      "point5": "Successfully deployed the website on Vercel for easy access."
+    },
+    "projectLink": "https://my-company-nine.vercel.app/",
+    "githubLink": "https://github.com/Kanwar07/MyCompany",
+    "preview": "https://iili.io/dThEXuR.png"
+  },
+  {
+    "id": "8",
+    "projectName": "CountDown Timer",
+    "projectArea": "Frontend Developer",
+    "skills": {
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "React",
+      "skill4": "ContextAPI",
+      "skill5": "TailwindCSS",
+      "skill6": "Netlify"
+    },
+    "description": {
+      "point1": "A CountDown Timer to do everything on time",
+      "point2": "Used Tailwind CSS for styling",
+      "point3": "Used Context API to store all the data in single file and use them in anywhere in the project",
+      "point4": "Successfully deployed the website on Netlify for easy access."
+    },
+    "projectLink": "https://countdowntimer-assignment.netlify.app/",
+    "githubLink": "https://github.com/Kanwar07/Countdown-Timer",
+    "preview": "https://iili.io/d3aj0Zu.png"
+  },
+  {
+    "id": "9",
     "projectName": "Chaabi",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -194,7 +254,7 @@
     "preview": "https://iili.io/d3TCHxt.png"
   },
   {
-    "id": "8",
+    "id": "10",
     "projectName": "24 Carrots",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -216,7 +276,7 @@
     "preview": "https://iili.io/d3Ti0gf.png"
   },
   {
-    "id": "9",
+    "id": "11",
     "projectName": "Products Data",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -237,7 +297,7 @@
     "preview": "https://iili.io/d3Y67CN.png"
   },
   {
-    "id": "10",
+    "id": "12",
     "projectName": "Todo App",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -261,7 +321,7 @@
     "preview": "https://iili.io/d3an7ee.png"
   },
   {
-    "id": "11",
+    "id": "13",
     "projectName": "Maps",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -283,7 +343,7 @@
     "preview": "https://iili.io/d3asnUP.png"
   },
   {
-    "id": "12",
+    "id": "14",
     "projectName": "Forever",
     "projectArea": "Frontend Developer",
     "skills": {
@@ -306,7 +366,7 @@
     "preview": "https://iili.io/d30dpNj.png"
   },
   {
-    "id": "13",
+    "id": "15",
     "projectName": "Music App",
     "projectArea": "Frontend Developer",
     "skills": {
